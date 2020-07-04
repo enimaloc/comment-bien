@@ -4,3 +4,4 @@
 ## Table des matières
 - [Comment bien rechercher sur internet](rechercher-sur-internet.md)
 - [Comment bien présenter X](presenter-x.md)
+- [Comment bien comprendre une stacktrace et corriger l'erreur](comprendre-une-stacktrace-et-corriger-l-erreur.md)
