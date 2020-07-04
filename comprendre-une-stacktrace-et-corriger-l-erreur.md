@@ -33,7 +33,7 @@ Maintenant si on essaye de transposée ça en français cela donnerait :<br>
 `Exception` faisant partie du package `java.lang` a été invoqué a la ligne `7` de la classe `Main` du package `ga.enimaloc` avec en précision `Template exception`<br>
 <br>
 Pour éviter une exception, soit elle est attendue(_checked exception_) donc faut "attrapée" l'erreur via un `try catch` ou vous pouvez faire `x` action si l'exception est invoqué sinon si c'est une exception non attendu(_unchecked exception_) elle provient surement de votre code maintenant cela seras à vous de savoir la corriger par vous-même, hors si l'utilisateur de votre application peut provoquer cette exception vous pouvez —comme toute les classe héritant de la classe [Throwable](https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html)— peut être entourée d'un `try catch` pour faire une autre action lorsqu'elle est "attrapé".
-## Exception revenant souvent :
+## Quelques exceptions :
 ### NullPointerException :
 Une [NullPointerException](https://docs.oracle.com/javase/8/docs/api/java/lang/NullPointerException.html) (ou sous forme réduite NPE) est une exception héritant de la classe [RuntimeException](https://docs.oracle.com/javase/8/docs/api/java/lang/RuntimeException.html), c'est donc une _checked exception_.<br>
 <br>
@@ -49,6 +49,7 @@ Une [IndexOutOfBoundException](https://docs.oracle.com/javase/8/docs/api/java/la
 <br>
 Elle est invoquée quand le programme essaye d'accéder a un element avec un index qui est supérieur a la limite de l'objet.
 
+# Quelques erreurs
 ### StackOverflowError :
 Une [StackOverflowError](https://docs.oracle.com/javase/8/docs/api/java/lang/StackOverflowError.html) est une erreur héritant de la classe [Error](https://docs.oracle.com/javase/8/docs/api/java/lang/Error.html), c'est donc une erreur grave.<br>
 <br>
