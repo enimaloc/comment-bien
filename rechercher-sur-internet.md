@@ -2,6 +2,7 @@
 
 ## Méthode :
 Si c'est plus une question sur un langage, un répertoire de notes sur plusieurs langages est disponible [ici](https://books.goalkicker.com/). <br> 
+Si cela ce base sur un projet déjà existant essayé ede recherché le repo du projet <br>
 Sinon si cela ne concerne pas le langage pur :
 - Faites une recherche globale pour maximiser vos chances de résultats.
 - Précisez le langage et l'api utilisés.
