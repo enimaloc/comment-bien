@@ -39,7 +39,7 @@ Maintenant si on essaye de transposer ça en français cela donnerait :<br>
 Dans ce cas-ci vous devez regarder dans quelle cas l'erreur est enclenché et voir suivant votre code, en faisant des debugs si besoins.
 #### Deuxième cause : À cause d'un choix de l'utilisateur
 Ici, vous devrait passer par un `try catch` ou faire une vérification pour éviter que l'utilisateur provoque l'erreur.
-### Troisième cause : À cause de l'environement dans lequel l'application fonctionne
+#### Troisième cause : À cause de l'environement dans lequel l'application fonctionne
 Comme la deuxième cause, vous devrez passer par un `try catch` ou faire une vérification.
 
 ## Quelques exceptions :
